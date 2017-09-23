@@ -1,0 +1,15 @@
+vtgateTotalTime {{.TotalTime}}
+vtgateTotalCount {{.TotalCount}}
+{{range .Histograms}}time{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Time}}
+count{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Count}}
+bucket500000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket500000 }}
+bucket1000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket1000000 }}
+bucket5000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket5000000 }}
+bucket10000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket10000000 }}
+bucket50000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket50000000 }}
+bucket100000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket100000000 }}
+bucket500000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket500000000 }}
+bucket1000000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket1000000000 }}
+bucket5000000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket5000000000 }}
+bucket10000000000{keyspace="{{.Keyspace}}", shard="{{.Shard}}"} {{.Bucket10000000000 }}
+{{end}}

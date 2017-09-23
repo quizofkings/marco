@@ -1,0 +1,3 @@
+{{range .}}conn_accepted{cell="{{.Data.Alias.Cell}}", keyspace="{{.Data.Keyspace}}", shard="{{.Data.Shard}}", uid="{{.Data.Alias.Uid}}"} {{.Stats.ConnAccepted}}
+qps{cell="{{.Data.Alias.Cell}}", keyspace="{{.Data.Keyspace}}", shard="{{.Data.Shard}}", uid="{{.Data.Alias.Uid}}"} {{index .Stats.QPS.All 0}}
+{{end}}

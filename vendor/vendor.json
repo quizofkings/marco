@@ -1,0 +1,79 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "1+T3s64i3hz9NXbXz4Mszg2Yl6I=",
+			"path": "github.com/coreos/etcd/client",
+			"revision": "897cadc88c5f4b01a8df6b760ec4b68ff1ece842",
+			"revisionTime": "2017-08-23T03:51:30Z"
+		},
+		{
+			"checksumSHA1": "mKIXx1kDwmVmdIpZ3pJtRBuUKso=",
+			"path": "github.com/coreos/etcd/pkg/pathutil",
+			"revision": "897cadc88c5f4b01a8df6b760ec4b68ff1ece842",
+			"revisionTime": "2017-08-23T03:51:30Z"
+		},
+		{
+			"checksumSHA1": "in4X4M2FFl6+eAXgxdxxSOZi1Vw=",
+			"path": "github.com/coreos/etcd/pkg/srv",
+			"revision": "897cadc88c5f4b01a8df6b760ec4b68ff1ece842",
+			"revisionTime": "2017-08-23T03:51:30Z"
+		},
+		{
+			"checksumSHA1": "gx1gJIMU6T0UNQ0bPZ/drQ8cpCI=",
+			"path": "github.com/coreos/etcd/pkg/types",
+			"revision": "897cadc88c5f4b01a8df6b760ec4b68ff1ece842",
+			"revisionTime": "2017-08-23T03:51:30Z"
+		},
+		{
+			"checksumSHA1": "sp2FkEyaIGiQFOEZCTDkBZgyHOs=",
+			"path": "github.com/coreos/etcd/version",
+			"revision": "897cadc88c5f4b01a8df6b760ec4b68ff1ece842",
+			"revisionTime": "2017-08-23T03:51:30Z"
+		},
+		{
+			"checksumSHA1": "97BsbXOiZ8+Kr+LIuZkQFtSj7H4=",
+			"path": "github.com/coreos/go-semver/semver",
+			"revision": "1817cd4bea52af76542157eeabd74b057d1a199e",
+			"revisionTime": "2017-06-13T09:22:38Z"
+		},
+		{
+			"checksumSHA1": "liSJy+TEkL/0QroEp56Tv6LVrI4=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "84573d5f03ab3740f524c7842c3a9bf617961d32",
+			"revisionTime": "2017-08-21T07:31:01Z"
+		},
+		{
+			"checksumSHA1": "9Zw986fuQM/hCoVd8vmHoSM+8sU=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "5efa3251c7f7d05e5d9704a69a984ec9f1386a40",
+			"revisionTime": "2017-06-20T10:48:52Z"
+		},
+		{
+			"checksumSHA1": "nqWNlnMmVpt628zzvyo6Yv2CX5Q=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "eb71ad9bd329b5ac0fd0148dd99bd62e8be8e035",
+			"revisionTime": "2017-08-07T10:11:13Z"
+		},
+		{
+			"checksumSHA1": "dr5+PfIRzXeN+l1VG+s0lea9qz8=",
+			"path": "golang.org/x/net/context",
+			"revision": "1c05540f6879653db88113bc4a2b70aec4bd491f",
+			"revisionTime": "2017-08-04T00:04:37Z"
+		},
+		{
+			"checksumSHA1": "2N+zaafLJbM/BcU+j+/BER6Yiwk=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "07c182904dbd53199946ba614a412c61d3c548f5",
+			"revisionTime": "2017-08-16T12:26:40Z"
+		},
+		{
+			"checksumSHA1": "gVfCD++7aVcdKF2spv6XkEM/wYw=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "07c182904dbd53199946ba614a412c61d3c548f5",
+			"revisionTime": "2017-08-16T12:26:40Z"
+		}
+	],
+	"rootPath": "git.palang.co/qok/marcoasensio"
+}
